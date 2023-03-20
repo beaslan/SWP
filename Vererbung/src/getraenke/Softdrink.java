@@ -3,8 +3,9 @@ package getraenke;
 public class Softdrink extends Getraenke {
 	private String geschmack;
 	
-	public Softdrink(String name, int menge, double preis,String geschamck) {
+	public Softdrink(String name, int menge, double preis,String geschmack) {
 		super(name, menge, preis);
+		this.geschmack = geschmack;
 		
 	}
 
@@ -12,7 +13,7 @@ public class Softdrink extends Getraenke {
 		return geschmack;
 	}
 	public void zubereiten() {
-        System.out.println(getName() + geschmack+" wird zubereitet...");
+        System.out.println(getName() +" "+ geschmack +" wird zubereitet...");
 
 	
 

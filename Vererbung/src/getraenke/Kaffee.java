@@ -13,7 +13,7 @@ public class Kaffee extends Getraenke {
 		return sorte;
 	}
 	public void zubereiten() {
-        System.out.println(getName() + sorte+  " wird zubereitet...");
+        System.out.println(getName() + sorte +  " wird zubereitet...");
 
 	
 }
