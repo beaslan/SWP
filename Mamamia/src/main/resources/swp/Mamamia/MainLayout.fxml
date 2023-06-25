@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.*?>
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.control.Label?>
@@ -8,10 +9,12 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="swp.Mamamia.MainController">
    <children>
-      <AnchorPane fx:id="box1" layoutX="-3.0" layoutY="-10.0" prefHeight="340.0" prefWidth="413.0">
+      <AnchorPane fx:id="box1" layoutY="6.0" prefHeight="480.0" prefWidth="640.0">
          <children>
-            <Label fx:id="numberlb" layoutX="29.0" layoutY="14.0" text="Hallo wie geht es dir" />
-            <Button fx:id="btmClick" layoutX="309.0" layoutY="35.0" mnemonicParsing="false" onAction="#btmonClick" text="Button" />
+            <Label fx:id="numberlb" layoutX="43.0" layoutY="70.0" text="Zufällige Zahl:" />
+            <Button fx:id="btmClick" layoutX="320.0" layoutY="21.0" mnemonicParsing="false" onAction="#btmonClick" text="Button" />
+            <TextField fx:id="color" layoutX="24.0" layoutY="21.0" text="ColorChange:" />
+            <Button fx:id="data" layoutX="419.0" layoutY="21.0" mnemonicParsing="false" onAction="#openfile" text="Datai" />
          </children>
       </AnchorPane>
    </children>
